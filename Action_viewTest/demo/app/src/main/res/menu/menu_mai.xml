@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/action_normal" android:orderInCategory="100" android:title="normal" app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="settings"
+        android:icon="@drawable/ic_stat_settings"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_search"
+        android:orderInCategory="80"
+        android:title="search"
+        android:icon="@drawable/ic_stat_search"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionViewClass="android.widget.SearchView"/>
+
+    <item
+        android:id="@+id/action_share"
+        android:orderInCategory="80"
+        android:title="share"
+        android:icon="@drawable/ic_stat_share"
+        app:showAsAction="never"
+        app:actionProviderClass="androidx.appcompat.widget.ShareActionProvider"/>
+
+    <item
+        android:id="@+id/action_shon"
+        android:orderInCategory="100"
+        android:title="shon"
+        app:showAsAction="never"
+        app:actionProviderClass="edu.mymzp.myapplication.MyActionProvider"/>
+
+</menu>
