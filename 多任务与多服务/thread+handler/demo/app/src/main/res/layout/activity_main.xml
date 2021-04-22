@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/main_tv_hello"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World"/>
+
+    <Button
+        android:id="@+id/main_btn_startIntent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="startIntent"/>
+
+    <Button
+        android:id="@+id/main_btn_startCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="startCount"/>
+
+
+    <Button
+        android:id="@+id/main_btn_stopCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="stopCount"/>
+
+    <Button
+        android:id="@+id/main_btn_updateProgress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="updateProgress"/>
+
+    <Button
+        android:id="@+id/main_btn_stopUpdateProgress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="stopUpdateProgress"/>
+
+    <TextView
+        android:id="@+id/main_tv_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Count:0"
+        android:textSize="18sp"/>
+
+    <ProgressBar
+        android:id="@+id/main_pb_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@android:style/Widget.ProgressBar.Horizontal"/>
+
+</LinearLayout>
